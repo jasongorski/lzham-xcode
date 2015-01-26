@@ -1,1 +1,5 @@
-Skeleton project to embed lzham in other xcode projects. Not yet tested. Example/test apps nonfunctional/nonexistent.
+# lzham-xcode
+
+A skeleton project to embed LZHAM in other Xcode projects on iOS and OS X.
+
+Mostly untested. The lzhamtest-osx binary should work however.

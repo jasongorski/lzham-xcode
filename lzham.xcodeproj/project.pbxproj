@@ -7,14 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26DEE1B21A767F8E00F07C4B /* lzhamcomp_ios.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 26DEE1B11A767F8E00F07C4B /* lzhamcomp_ios.h */; };
-		26DEE1B41A767F8E00F07C4B /* lzhamcomp_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE1B31A767F8E00F07C4B /* lzhamcomp_ios.m */; };
-		26DEE1E81A767FAF00F07C4B /* lzhamdecomp_ios.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 26DEE1E71A767FAF00F07C4B /* lzhamdecomp_ios.h */; };
-		26DEE1EA1A767FAF00F07C4B /* lzhamdecomp_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE1E91A767FAF00F07C4B /* lzhamdecomp_ios.m */; };
-		26DEE2031A767FD000F07C4B /* lzhamdll_ios.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 26DEE2021A767FD000F07C4B /* lzhamdll_ios.h */; };
-		26DEE2051A767FD000F07C4B /* lzhamdll_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2041A767FD000F07C4B /* lzhamdll_ios.m */; };
+		261266631A769E3C002845FD /* hello.txt.lzham in Resources */ = {isa = PBXBuildFile; fileRef = 261266611A769E3C002845FD /* hello.txt.lzham */; };
+		261266641A769FC8002845FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE21F1A767FEF00F07C4B /* main.m */; };
+		261266671A76A031002845FD /* lzhamtest_wrap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 261266651A76A031002845FD /* lzhamtest_wrap.cpp */; };
 		26DEE2231A767FEF00F07C4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2221A767FEF00F07C4B /* AppDelegate.m */; };
-		26DEE2261A767FEF00F07C4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2251A767FEF00F07C4B /* ViewController.m */; };
+		26DEE2261A767FEF00F07C4B /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2251A767FEF00F07C4B /* ViewController.mm */; };
 		26DEE2291A767FEF00F07C4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26DEE2271A767FEF00F07C4B /* Main.storyboard */; };
 		26DEE22B1A767FEF00F07C4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26DEE22A1A767FEF00F07C4B /* Images.xcassets */; };
 		26DEE22E1A767FEF00F07C4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26DEE22C1A767FEF00F07C4B /* LaunchScreen.xib */; };
@@ -56,7 +53,6 @@
 		26DEE2D11A76858F00F07C4B /* lzham_api.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2A11A76851300F07C4B /* lzham_api.cpp */; };
 		26DEE2D21A7685B200F07C4B /* lzhamtest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2A91A76851400F07C4B /* lzhamtest.cpp */; };
 		26DEE2D31A7685B200F07C4B /* timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2AB1A76851400F07C4B /* timer.cpp */; };
-		26DEE2D41A7685B400F07C4B /* lzhamtest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2A91A76851400F07C4B /* lzhamtest.cpp */; };
 		26DEE2D51A7685B400F07C4B /* timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2AB1A76851400F07C4B /* timer.cpp */; };
 		26DEE2EE1A768E5400F07C4B /* liblzhamcomp-osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DEE24D1A76805200F07C4B /* liblzhamcomp-osx.a */; };
 		26DEE2EF1A768E5400F07C4B /* liblzhamdecomp-osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DEE2451A76804700F07C4B /* liblzhamdecomp-osx.a */; };
@@ -174,7 +170,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				26DEE1B21A767F8E00F07C4B /* lzhamcomp_ios.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,7 +179,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				26DEE1E81A767FAF00F07C4B /* lzhamdecomp_ios.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +188,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				26DEE2031A767FD000F07C4B /* lzhamdll_ios.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,22 +203,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		261266611A769E3C002845FD /* hello.txt.lzham */ = {isa = PBXFileReference; lastKnownFileType = file; path = hello.txt.lzham; sourceTree = "<group>"; };
+		261266651A76A031002845FD /* lzhamtest_wrap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lzhamtest_wrap.cpp; sourceTree = "<group>"; };
+		261266661A76A031002845FD /* lzhamtest_wrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lzhamtest_wrap.h; sourceTree = "<group>"; };
 		26DEE1AE1A767F8E00F07C4B /* liblzhamcomp-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblzhamcomp-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		26DEE1B11A767F8E00F07C4B /* lzhamcomp_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzhamcomp_ios.h; sourceTree = "<group>"; };
-		26DEE1B31A767F8E00F07C4B /* lzhamcomp_ios.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lzhamcomp_ios.m; sourceTree = "<group>"; };
 		26DEE1E51A767FAF00F07C4B /* liblzhamdecomp-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblzhamdecomp-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		26DEE1E71A767FAF00F07C4B /* lzhamdecomp_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzhamdecomp_ios.h; sourceTree = "<group>"; };
-		26DEE1E91A767FAF00F07C4B /* lzhamdecomp_ios.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lzhamdecomp_ios.m; sourceTree = "<group>"; };
 		26DEE2001A767FD000F07C4B /* liblzhamdll-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblzhamdll-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		26DEE2021A767FD000F07C4B /* lzhamdll_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzhamdll_ios.h; sourceTree = "<group>"; };
-		26DEE2041A767FD000F07C4B /* lzhamdll_ios.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lzhamdll_ios.m; sourceTree = "<group>"; };
 		26DEE21B1A767FEF00F07C4B /* lzhamtestapp-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lzhamtestapp-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26DEE21E1A767FEF00F07C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26DEE21F1A767FEF00F07C4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		26DEE2211A767FEF00F07C4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		26DEE2221A767FEF00F07C4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		26DEE2241A767FEF00F07C4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		26DEE2251A767FEF00F07C4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26DEE2251A767FEF00F07C4B /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		26DEE2281A767FEF00F07C4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26DEE22A1A767FEF00F07C4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		26DEE22D1A767FEF00F07C4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -368,13 +358,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2612665F1A769E3C002845FD /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				261266611A769E3C002845FD /* hello.txt.lzham */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
 		26DEE1A31A767F3A00F07C4B = {
 			isa = PBXGroup;
 			children = (
 				26DEE2641A7684DF00F07C4B /* lzham_codec */,
-				26DEE1B01A767F8E00F07C4B /* lzhamcomp-ios */,
-				26DEE1E61A767FAF00F07C4B /* lzhamdecomp-ios */,
-				26DEE2011A767FD000F07C4B /* lzhamdll-ios */,
 				26DEE21C1A767FEF00F07C4B /* lzhamtestapp-ios */,
 				26DEE1AF1A767F8E00F07C4B /* Products */,
 			);
@@ -395,40 +390,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		26DEE1B01A767F8E00F07C4B /* lzhamcomp-ios */ = {
-			isa = PBXGroup;
-			children = (
-				26DEE1B11A767F8E00F07C4B /* lzhamcomp_ios.h */,
-				26DEE1B31A767F8E00F07C4B /* lzhamcomp_ios.m */,
-			);
-			path = "lzhamcomp-ios";
-			sourceTree = "<group>";
-		};
-		26DEE1E61A767FAF00F07C4B /* lzhamdecomp-ios */ = {
-			isa = PBXGroup;
-			children = (
-				26DEE1E71A767FAF00F07C4B /* lzhamdecomp_ios.h */,
-				26DEE1E91A767FAF00F07C4B /* lzhamdecomp_ios.m */,
-			);
-			path = "lzhamdecomp-ios";
-			sourceTree = "<group>";
-		};
-		26DEE2011A767FD000F07C4B /* lzhamdll-ios */ = {
-			isa = PBXGroup;
-			children = (
-				26DEE2021A767FD000F07C4B /* lzhamdll_ios.h */,
-				26DEE2041A767FD000F07C4B /* lzhamdll_ios.m */,
-			);
-			path = "lzhamdll-ios";
-			sourceTree = "<group>";
-		};
 		26DEE21C1A767FEF00F07C4B /* lzhamtestapp-ios */ = {
 			isa = PBXGroup;
 			children = (
+				2612665F1A769E3C002845FD /* assets */,
 				26DEE2211A767FEF00F07C4B /* AppDelegate.h */,
 				26DEE2221A767FEF00F07C4B /* AppDelegate.m */,
 				26DEE2241A767FEF00F07C4B /* ViewController.h */,
-				26DEE2251A767FEF00F07C4B /* ViewController.m */,
+				26DEE2251A767FEF00F07C4B /* ViewController.mm */,
+				261266651A76A031002845FD /* lzhamtest_wrap.cpp */,
+				261266661A76A031002845FD /* lzhamtest_wrap.h */,
 				26DEE2271A767FEF00F07C4B /* Main.storyboard */,
 				26DEE22A1A767FEF00F07C4B /* Images.xcassets */,
 				26DEE22C1A767FEF00F07C4B /* LaunchScreen.xib */,
@@ -836,6 +807,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				261266631A769E3C002845FD /* hello.txt.lzham in Resources */,
 				26DEE2291A767FEF00F07C4B /* Main.storyboard in Resources */,
 				26DEE22E1A767FEF00F07C4B /* LaunchScreen.xib in Resources */,
 				26DEE22B1A767FEF00F07C4B /* Images.xcassets in Resources */,
@@ -849,7 +821,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26DEE1B41A767F8E00F07C4B /* lzhamcomp_ios.m in Sources */,
 				26DEE2B11A76854E00F07C4B /* lzham_lzcomp_state.cpp in Sources */,
 				26DEE2AF1A76854E00F07C4B /* lzham_lzcomp.cpp in Sources */,
 				26DEE2B21A76854E00F07C4B /* lzham_match_accel.cpp in Sources */,
@@ -872,7 +843,6 @@
 				26DEE2BA1A76857600F07C4B /* lzham_assert.cpp in Sources */,
 				26DEE2C41A76857600F07C4B /* lzham_vector.cpp in Sources */,
 				26DEE2BD1A76857600F07C4B /* lzham_lzdecomp.cpp in Sources */,
-				26DEE1EA1A767FAF00F07C4B /* lzhamdecomp_ios.m in Sources */,
 				26DEE2C31A76857600F07C4B /* lzham_timer.cpp in Sources */,
 				26DEE2BE1A76857600F07C4B /* lzham_lzdecompbase.cpp in Sources */,
 			);
@@ -882,7 +852,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26DEE2051A767FD000F07C4B /* lzhamdll_ios.m in Sources */,
 				26DEE2D01A76858E00F07C4B /* lzham_api.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -891,10 +860,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26DEE2261A767FEF00F07C4B /* ViewController.m in Sources */,
+				261266641A769FC8002845FD /* main.m in Sources */,
+				261266671A76A031002845FD /* lzhamtest_wrap.cpp in Sources */,
+				26DEE2261A767FEF00F07C4B /* ViewController.mm in Sources */,
 				26DEE2D51A7685B400F07C4B /* timer.cpp in Sources */,
 				26DEE2231A767FEF00F07C4B /* AppDelegate.m in Sources */,
-				26DEE2D41A7685B400F07C4B /* lzhamtest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,1895 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26DEE1B21A767F8E00F07C4B /* lzhamcomp_ios.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 26DEE1B11A767F8E00F07C4B /* lzhamcomp_ios.h */; };
+		26DEE1B41A767F8E00F07C4B /* lzhamcomp_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE1B31A767F8E00F07C4B /* lzhamcomp_ios.m */; };
+		26DEE1E81A767FAF00F07C4B /* lzhamdecomp_ios.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 26DEE1E71A767FAF00F07C4B /* lzhamdecomp_ios.h */; };
+		26DEE1EA1A767FAF00F07C4B /* lzhamdecomp_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE1E91A767FAF00F07C4B /* lzhamdecomp_ios.m */; };
+		26DEE2031A767FD000F07C4B /* lzhamdll_ios.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 26DEE2021A767FD000F07C4B /* lzhamdll_ios.h */; };
+		26DEE2051A767FD000F07C4B /* lzhamdll_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2041A767FD000F07C4B /* lzhamdll_ios.m */; };
+		26DEE2231A767FEF00F07C4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2221A767FEF00F07C4B /* AppDelegate.m */; };
+		26DEE2261A767FEF00F07C4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2251A767FEF00F07C4B /* ViewController.m */; };
+		26DEE2291A767FEF00F07C4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26DEE2271A767FEF00F07C4B /* Main.storyboard */; };
+		26DEE22B1A767FEF00F07C4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26DEE22A1A767FEF00F07C4B /* Images.xcassets */; };
+		26DEE22E1A767FEF00F07C4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26DEE22C1A767FEF00F07C4B /* LaunchScreen.xib */; };
+		26DEE2AE1A76854E00F07C4B /* lzham_lzbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE26F1A76851300F07C4B /* lzham_lzbase.cpp */; };
+		26DEE2AF1A76854E00F07C4B /* lzham_lzcomp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2711A76851300F07C4B /* lzham_lzcomp.cpp */; };
+		26DEE2B01A76854E00F07C4B /* lzham_lzcomp_internal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2721A76851300F07C4B /* lzham_lzcomp_internal.cpp */; };
+		26DEE2B11A76854E00F07C4B /* lzham_lzcomp_state.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2741A76851300F07C4B /* lzham_lzcomp_state.cpp */; };
+		26DEE2B21A76854E00F07C4B /* lzham_match_accel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2751A76851300F07C4B /* lzham_match_accel.cpp */; };
+		26DEE2B31A76854E00F07C4B /* lzham_pthreads_threading.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2781A76851300F07C4B /* lzham_pthreads_threading.cpp */; };
+		26DEE2B41A76855000F07C4B /* lzham_lzbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE26F1A76851300F07C4B /* lzham_lzbase.cpp */; };
+		26DEE2B51A76855000F07C4B /* lzham_lzcomp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2711A76851300F07C4B /* lzham_lzcomp.cpp */; };
+		26DEE2B61A76855000F07C4B /* lzham_lzcomp_internal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2721A76851300F07C4B /* lzham_lzcomp_internal.cpp */; };
+		26DEE2B71A76855000F07C4B /* lzham_lzcomp_state.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2741A76851300F07C4B /* lzham_lzcomp_state.cpp */; };
+		26DEE2B81A76855000F07C4B /* lzham_match_accel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2751A76851300F07C4B /* lzham_match_accel.cpp */; };
+		26DEE2B91A76855000F07C4B /* lzham_pthreads_threading.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2781A76851300F07C4B /* lzham_pthreads_threading.cpp */; };
+		26DEE2BA1A76857600F07C4B /* lzham_assert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2801A76851300F07C4B /* lzham_assert.cpp */; };
+		26DEE2BB1A76857600F07C4B /* lzham_checksum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2821A76851300F07C4B /* lzham_checksum.cpp */; };
+		26DEE2BC1A76857600F07C4B /* lzham_huffman_codes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2881A76851300F07C4B /* lzham_huffman_codes.cpp */; };
+		26DEE2BD1A76857600F07C4B /* lzham_lzdecomp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE28A1A76851300F07C4B /* lzham_lzdecomp.cpp */; };
+		26DEE2BE1A76857600F07C4B /* lzham_lzdecompbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE28B1A76851300F07C4B /* lzham_lzdecompbase.cpp */; };
+		26DEE2BF1A76857600F07C4B /* lzham_mem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE28E1A76851300F07C4B /* lzham_mem.cpp */; };
+		26DEE2C01A76857600F07C4B /* lzham_platform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2901A76851300F07C4B /* lzham_platform.cpp */; };
+		26DEE2C11A76857600F07C4B /* lzham_prefix_coding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2921A76851300F07C4B /* lzham_prefix_coding.cpp */; };
+		26DEE2C21A76857600F07C4B /* lzham_symbol_codec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2941A76851300F07C4B /* lzham_symbol_codec.cpp */; };
+		26DEE2C31A76857600F07C4B /* lzham_timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2961A76851300F07C4B /* lzham_timer.cpp */; };
+		26DEE2C41A76857600F07C4B /* lzham_vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE29B1A76851300F07C4B /* lzham_vector.cpp */; };
+		26DEE2C51A76857800F07C4B /* lzham_assert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2801A76851300F07C4B /* lzham_assert.cpp */; };
+		26DEE2C61A76857800F07C4B /* lzham_checksum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2821A76851300F07C4B /* lzham_checksum.cpp */; };
+		26DEE2C71A76857800F07C4B /* lzham_huffman_codes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2881A76851300F07C4B /* lzham_huffman_codes.cpp */; };
+		26DEE2C81A76857800F07C4B /* lzham_lzdecomp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE28A1A76851300F07C4B /* lzham_lzdecomp.cpp */; };
+		26DEE2C91A76857800F07C4B /* lzham_lzdecompbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE28B1A76851300F07C4B /* lzham_lzdecompbase.cpp */; };
+		26DEE2CA1A76857800F07C4B /* lzham_mem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE28E1A76851300F07C4B /* lzham_mem.cpp */; };
+		26DEE2CB1A76857800F07C4B /* lzham_platform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2901A76851300F07C4B /* lzham_platform.cpp */; };
+		26DEE2CC1A76857800F07C4B /* lzham_prefix_coding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2921A76851300F07C4B /* lzham_prefix_coding.cpp */; };
+		26DEE2CD1A76857800F07C4B /* lzham_symbol_codec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2941A76851300F07C4B /* lzham_symbol_codec.cpp */; };
+		26DEE2CE1A76857800F07C4B /* lzham_timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2961A76851300F07C4B /* lzham_timer.cpp */; };
+		26DEE2CF1A76857800F07C4B /* lzham_vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE29B1A76851300F07C4B /* lzham_vector.cpp */; };
+		26DEE2D01A76858E00F07C4B /* lzham_api.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2A11A76851300F07C4B /* lzham_api.cpp */; };
+		26DEE2D11A76858F00F07C4B /* lzham_api.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2A11A76851300F07C4B /* lzham_api.cpp */; };
+		26DEE2D21A7685B200F07C4B /* lzhamtest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2A91A76851400F07C4B /* lzhamtest.cpp */; };
+		26DEE2D31A7685B200F07C4B /* timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2AB1A76851400F07C4B /* timer.cpp */; };
+		26DEE2D41A7685B400F07C4B /* lzhamtest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2A91A76851400F07C4B /* lzhamtest.cpp */; };
+		26DEE2D51A7685B400F07C4B /* timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DEE2AB1A76851400F07C4B /* timer.cpp */; };
+		26DEE2EE1A768E5400F07C4B /* liblzhamcomp-osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DEE24D1A76805200F07C4B /* liblzhamcomp-osx.a */; };
+		26DEE2EF1A768E5400F07C4B /* liblzhamdecomp-osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DEE2451A76804700F07C4B /* liblzhamdecomp-osx.a */; };
+		26DEE2F21A768E6600F07C4B /* liblzhamdll-osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DEE2551A76806000F07C4B /* liblzhamdll-osx.a */; };
+		26DEE2F91A768EA600F07C4B /* liblzhamcomp-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DEE1AE1A767F8E00F07C4B /* liblzhamcomp-ios.a */; };
+		26DEE2FA1A768EA600F07C4B /* liblzhamdecomp-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DEE1E51A767FAF00F07C4B /* liblzhamdecomp-ios.a */; };
+		26DEE2FB1A768EA600F07C4B /* liblzhamdll-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DEE2001A767FD000F07C4B /* liblzhamdll-ios.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26DEE2DA1A768B1200F07C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26DEE1A41A767F3A00F07C4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26DEE2D61A768ACB00F07C4B;
+			remoteInfo = pre_build;
+		};
+		26DEE2DC1A768B1A00F07C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26DEE1A41A767F3A00F07C4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26DEE2D61A768ACB00F07C4B;
+			remoteInfo = pre_build;
+		};
+		26DEE2DE1A768B1F00F07C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26DEE1A41A767F3A00F07C4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26DEE2D61A768ACB00F07C4B;
+			remoteInfo = pre_build;
+		};
+		26DEE2E01A768B2300F07C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26DEE1A41A767F3A00F07C4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26DEE2D61A768ACB00F07C4B;
+			remoteInfo = pre_build;
+		};
+		26DEE2E21A768B2800F07C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26DEE1A41A767F3A00F07C4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26DEE2D61A768ACB00F07C4B;
+			remoteInfo = pre_build;
+		};
+		26DEE2E41A768B2C00F07C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26DEE1A41A767F3A00F07C4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26DEE2D61A768ACB00F07C4B;
+			remoteInfo = pre_build;
+		};
+		26DEE2E61A768B3100F07C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26DEE1A41A767F3A00F07C4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26DEE2D61A768ACB00F07C4B;
+			remoteInfo = pre_build;
+		};
+		26DEE2E81A768B3600F07C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26DEE1A41A767F3A00F07C4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26DEE2D61A768ACB00F07C4B;
+			remoteInfo = pre_build;
+		};
+		26DEE2EA1A768E4C00F07C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26DEE1A41A767F3A00F07C4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26DEE24C1A76805200F07C4B;
+			remoteInfo = "lzhamcomp-osx";
+		};
+		26DEE2EC1A768E4C00F07C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26DEE1A41A767F3A00F07C4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26DEE2441A76804700F07C4B;
+			remoteInfo = "lzhamdecomp-osx";
+		};
+		26DEE2F01A768E6200F07C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26DEE1A41A767F3A00F07C4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26DEE2541A76806000F07C4B;
+			remoteInfo = "lzhamdll-osx";
+		};
+		26DEE2F31A768E9C00F07C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26DEE1A41A767F3A00F07C4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26DEE1AD1A767F8E00F07C4B;
+			remoteInfo = "lzhamcomp-ios";
+		};
+		26DEE2F51A768E9C00F07C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26DEE1A41A767F3A00F07C4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26DEE1E41A767FAF00F07C4B;
+			remoteInfo = "lzhamdecomp-ios";
+		};
+		26DEE2F71A768E9C00F07C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26DEE1A41A767F3A00F07C4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26DEE1FF1A767FD000F07C4B;
+			remoteInfo = "lzhamdll-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		26DEE1AC1A767F8E00F07C4B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				26DEE1B21A767F8E00F07C4B /* lzhamcomp_ios.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DEE1E31A767FAF00F07C4B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				26DEE1E81A767FAF00F07C4B /* lzhamdecomp_ios.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DEE1FE1A767FD000F07C4B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				26DEE2031A767FD000F07C4B /* lzhamdll_ios.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DEE25B1A7683FD00F07C4B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		26DEE1AE1A767F8E00F07C4B /* liblzhamcomp-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblzhamcomp-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DEE1B11A767F8E00F07C4B /* lzhamcomp_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzhamcomp_ios.h; sourceTree = "<group>"; };
+		26DEE1B31A767F8E00F07C4B /* lzhamcomp_ios.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lzhamcomp_ios.m; sourceTree = "<group>"; };
+		26DEE1E51A767FAF00F07C4B /* liblzhamdecomp-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblzhamdecomp-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DEE1E71A767FAF00F07C4B /* lzhamdecomp_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzhamdecomp_ios.h; sourceTree = "<group>"; };
+		26DEE1E91A767FAF00F07C4B /* lzhamdecomp_ios.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lzhamdecomp_ios.m; sourceTree = "<group>"; };
+		26DEE2001A767FD000F07C4B /* liblzhamdll-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblzhamdll-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DEE2021A767FD000F07C4B /* lzhamdll_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzhamdll_ios.h; sourceTree = "<group>"; };
+		26DEE2041A767FD000F07C4B /* lzhamdll_ios.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lzhamdll_ios.m; sourceTree = "<group>"; };
+		26DEE21B1A767FEF00F07C4B /* lzhamtestapp-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lzhamtestapp-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DEE21E1A767FEF00F07C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26DEE21F1A767FEF00F07C4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26DEE2211A767FEF00F07C4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26DEE2221A767FEF00F07C4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26DEE2241A767FEF00F07C4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26DEE2251A767FEF00F07C4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26DEE2281A767FEF00F07C4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26DEE22A1A767FEF00F07C4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		26DEE22D1A767FEF00F07C4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		26DEE2451A76804700F07C4B /* liblzhamdecomp-osx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblzhamdecomp-osx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DEE24D1A76805200F07C4B /* liblzhamcomp-osx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblzhamcomp-osx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DEE2551A76806000F07C4B /* liblzhamdll-osx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblzhamdll-osx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DEE25D1A7683FD00F07C4B /* lzhamtest-osx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "lzhamtest-osx"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DEE25F1A7683FD00F07C4B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		26DEE2661A76851300F07C4B /* lzham.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham.h; sourceTree = "<group>"; };
+		26DEE2671A76851300F07C4B /* lzham_dynamic_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_dynamic_lib.h; sourceTree = "<group>"; };
+		26DEE2681A76851300F07C4B /* lzham_exports.inc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.pascal; path = lzham_exports.inc; sourceTree = "<group>"; };
+		26DEE2691A76851300F07C4B /* lzham_static_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_static_lib.h; sourceTree = "<group>"; };
+		26DEE26A1A76851300F07C4B /* zlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zlib.h; sourceTree = "<group>"; };
+		26DEE26B1A76851300F07C4B /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = lzham_codec/LICENSE; sourceTree = "<group>"; };
+		26DEE26D1A76851300F07C4B /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		26DEE26E1A76851300F07C4B /* lzham_comp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_comp.h; sourceTree = "<group>"; };
+		26DEE26F1A76851300F07C4B /* lzham_lzbase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lzham_lzbase.cpp; sourceTree = "<group>"; };
+		26DEE2701A76851300F07C4B /* lzham_lzbase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_lzbase.h; sourceTree = "<group>"; };
+		26DEE2711A76851300F07C4B /* lzham_lzcomp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lzham_lzcomp.cpp; sourceTree = "<group>"; };
+		26DEE2721A76851300F07C4B /* lzham_lzcomp_internal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lzham_lzcomp_internal.cpp; sourceTree = "<group>"; };
+		26DEE2731A76851300F07C4B /* lzham_lzcomp_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_lzcomp_internal.h; sourceTree = "<group>"; };
+		26DEE2741A76851300F07C4B /* lzham_lzcomp_state.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lzham_lzcomp_state.cpp; sourceTree = "<group>"; };
+		26DEE2751A76851300F07C4B /* lzham_match_accel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lzham_match_accel.cpp; sourceTree = "<group>"; };
+		26DEE2761A76851300F07C4B /* lzham_match_accel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_match_accel.h; sourceTree = "<group>"; };
+		26DEE2771A76851300F07C4B /* lzham_null_threading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_null_threading.h; sourceTree = "<group>"; };
+		26DEE2781A76851300F07C4B /* lzham_pthreads_threading.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lzham_pthreads_threading.cpp; sourceTree = "<group>"; };
+		26DEE2791A76851300F07C4B /* lzham_pthreads_threading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_pthreads_threading.h; sourceTree = "<group>"; };
+		26DEE27A1A76851300F07C4B /* lzham_threading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_threading.h; sourceTree = "<group>"; };
+		26DEE27B1A76851300F07C4B /* lzham_win32_threading.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lzham_win32_threading.cpp; sourceTree = "<group>"; };
+		26DEE27C1A76851300F07C4B /* lzham_win32_threading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_win32_threading.h; sourceTree = "<group>"; };
+		26DEE27D1A76851300F07C4B /* lzhamcomp.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = lzhamcomp.vcxproj; sourceTree = "<group>"; };
+		26DEE27F1A76851300F07C4B /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		26DEE2801A76851300F07C4B /* lzham_assert.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lzham_assert.cpp; sourceTree = "<group>"; };
+		26DEE2811A76851300F07C4B /* lzham_assert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_assert.h; sourceTree = "<group>"; };
+		26DEE2821A76851300F07C4B /* lzham_checksum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lzham_checksum.cpp; sourceTree = "<group>"; };
+		26DEE2831A76851300F07C4B /* lzham_checksum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_checksum.h; sourceTree = "<group>"; };
+		26DEE2841A76851300F07C4B /* lzham_config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_config.h; sourceTree = "<group>"; };
+		26DEE2851A76851300F07C4B /* lzham_core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_core.h; sourceTree = "<group>"; };
+		26DEE2861A76851300F07C4B /* lzham_decomp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_decomp.h; sourceTree = "<group>"; };
+		26DEE2871A76851300F07C4B /* lzham_helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_helpers.h; sourceTree = "<group>"; };
+		26DEE2881A76851300F07C4B /* lzham_huffman_codes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lzham_huffman_codes.cpp; sourceTree = "<group>"; };
+		26DEE2891A76851300F07C4B /* lzham_huffman_codes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_huffman_codes.h; sourceTree = "<group>"; };
+		26DEE28A1A76851300F07C4B /* lzham_lzdecomp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lzham_lzdecomp.cpp; sourceTree = "<group>"; };
+		26DEE28B1A76851300F07C4B /* lzham_lzdecompbase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lzham_lzdecompbase.cpp; sourceTree = "<group>"; };
+		26DEE28C1A76851300F07C4B /* lzham_lzdecompbase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_lzdecompbase.h; sourceTree = "<group>"; };
+		26DEE28D1A76851300F07C4B /* lzham_math.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_math.h; sourceTree = "<group>"; };
+		26DEE28E1A76851300F07C4B /* lzham_mem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lzham_mem.cpp; sourceTree = "<group>"; };
+		26DEE28F1A76851300F07C4B /* lzham_mem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_mem.h; sourceTree = "<group>"; };
+		26DEE2901A76851300F07C4B /* lzham_platform.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lzham_platform.cpp; sourceTree = "<group>"; };
+		26DEE2911A76851300F07C4B /* lzham_platform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_platform.h; sourceTree = "<group>"; };
+		26DEE2921A76851300F07C4B /* lzham_prefix_coding.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lzham_prefix_coding.cpp; sourceTree = "<group>"; };
+		26DEE2931A76851300F07C4B /* lzham_prefix_coding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_prefix_coding.h; sourceTree = "<group>"; };
+		26DEE2941A76851300F07C4B /* lzham_symbol_codec.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lzham_symbol_codec.cpp; sourceTree = "<group>"; };
+		26DEE2951A76851300F07C4B /* lzham_symbol_codec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_symbol_codec.h; sourceTree = "<group>"; };
+		26DEE2961A76851300F07C4B /* lzham_timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lzham_timer.cpp; sourceTree = "<group>"; };
+		26DEE2971A76851300F07C4B /* lzham_timer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_timer.h; sourceTree = "<group>"; };
+		26DEE2981A76851300F07C4B /* lzham_traits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_traits.h; sourceTree = "<group>"; };
+		26DEE2991A76851300F07C4B /* lzham_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_types.h; sourceTree = "<group>"; };
+		26DEE29A1A76851300F07C4B /* lzham_utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_utils.h; sourceTree = "<group>"; };
+		26DEE29B1A76851300F07C4B /* lzham_vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lzham_vector.cpp; sourceTree = "<group>"; };
+		26DEE29C1A76851300F07C4B /* lzham_vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_vector.h; sourceTree = "<group>"; };
+		26DEE29D1A76851300F07C4B /* lzhamdecomp.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = lzhamdecomp.vcxproj; sourceTree = "<group>"; };
+		26DEE29F1A76851300F07C4B /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		26DEE2A01A76851300F07C4B /* lzham.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = lzham.vcxproj; sourceTree = "<group>"; };
+		26DEE2A11A76851300F07C4B /* lzham_api.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lzham_api.cpp; sourceTree = "<group>"; };
+		26DEE2A21A76851300F07C4B /* lzham_dll_main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lzham_dll_main.cpp; sourceTree = "<group>"; };
+		26DEE2A31A76851300F07C4B /* lzhamdll.def */ = {isa = PBXFileReference; lastKnownFileType = text; path = lzhamdll.def; sourceTree = "<group>"; };
+		26DEE2A51A76851400F07C4B /* lzham_lib.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lzham_lib.cpp; sourceTree = "<group>"; };
+		26DEE2A61A76851400F07C4B /* lzhamlib.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = lzhamlib.vcxproj; sourceTree = "<group>"; };
+		26DEE2A81A76851400F07C4B /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		26DEE2A91A76851400F07C4B /* lzhamtest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lzhamtest.cpp; sourceTree = "<group>"; };
+		26DEE2AA1A76851400F07C4B /* lzhamtest.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = lzhamtest.vcxproj; sourceTree = "<group>"; };
+		26DEE2AB1A76851400F07C4B /* timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = timer.cpp; sourceTree = "<group>"; };
+		26DEE2AC1A76851400F07C4B /* timer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
+		26DEE2AD1A76851400F07C4B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = lzham_codec/README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26DEE1AB1A767F8E00F07C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DEE1E21A767FAF00F07C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DEE1FD1A767FD000F07C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DEE2181A767FEF00F07C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DEE2F91A768EA600F07C4B /* liblzhamcomp-ios.a in Frameworks */,
+				26DEE2FA1A768EA600F07C4B /* liblzhamdecomp-ios.a in Frameworks */,
+				26DEE2FB1A768EA600F07C4B /* liblzhamdll-ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DEE2421A76804700F07C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DEE24A1A76805200F07C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DEE2521A76806000F07C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DEE25A1A7683FD00F07C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DEE2F21A768E6600F07C4B /* liblzhamdll-osx.a in Frameworks */,
+				26DEE2EE1A768E5400F07C4B /* liblzhamcomp-osx.a in Frameworks */,
+				26DEE2EF1A768E5400F07C4B /* liblzhamdecomp-osx.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26DEE1A31A767F3A00F07C4B = {
+			isa = PBXGroup;
+			children = (
+				26DEE2641A7684DF00F07C4B /* lzham_codec */,
+				26DEE1B01A767F8E00F07C4B /* lzhamcomp-ios */,
+				26DEE1E61A767FAF00F07C4B /* lzhamdecomp-ios */,
+				26DEE2011A767FD000F07C4B /* lzhamdll-ios */,
+				26DEE21C1A767FEF00F07C4B /* lzhamtestapp-ios */,
+				26DEE25E1A7683FD00F07C4B /* lzhamtest-osx */,
+				26DEE1AF1A767F8E00F07C4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26DEE1AF1A767F8E00F07C4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26DEE1AE1A767F8E00F07C4B /* liblzhamcomp-ios.a */,
+				26DEE1E51A767FAF00F07C4B /* liblzhamdecomp-ios.a */,
+				26DEE2001A767FD000F07C4B /* liblzhamdll-ios.a */,
+				26DEE21B1A767FEF00F07C4B /* lzhamtestapp-ios.app */,
+				26DEE2451A76804700F07C4B /* liblzhamdecomp-osx.a */,
+				26DEE24D1A76805200F07C4B /* liblzhamcomp-osx.a */,
+				26DEE2551A76806000F07C4B /* liblzhamdll-osx.a */,
+				26DEE25D1A7683FD00F07C4B /* lzhamtest-osx */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26DEE1B01A767F8E00F07C4B /* lzhamcomp-ios */ = {
+			isa = PBXGroup;
+			children = (
+				26DEE1B11A767F8E00F07C4B /* lzhamcomp_ios.h */,
+				26DEE1B31A767F8E00F07C4B /* lzhamcomp_ios.m */,
+			);
+			path = "lzhamcomp-ios";
+			sourceTree = "<group>";
+		};
+		26DEE1E61A767FAF00F07C4B /* lzhamdecomp-ios */ = {
+			isa = PBXGroup;
+			children = (
+				26DEE1E71A767FAF00F07C4B /* lzhamdecomp_ios.h */,
+				26DEE1E91A767FAF00F07C4B /* lzhamdecomp_ios.m */,
+			);
+			path = "lzhamdecomp-ios";
+			sourceTree = "<group>";
+		};
+		26DEE2011A767FD000F07C4B /* lzhamdll-ios */ = {
+			isa = PBXGroup;
+			children = (
+				26DEE2021A767FD000F07C4B /* lzhamdll_ios.h */,
+				26DEE2041A767FD000F07C4B /* lzhamdll_ios.m */,
+			);
+			path = "lzhamdll-ios";
+			sourceTree = "<group>";
+		};
+		26DEE21C1A767FEF00F07C4B /* lzhamtestapp-ios */ = {
+			isa = PBXGroup;
+			children = (
+				26DEE2211A767FEF00F07C4B /* AppDelegate.h */,
+				26DEE2221A767FEF00F07C4B /* AppDelegate.m */,
+				26DEE2241A767FEF00F07C4B /* ViewController.h */,
+				26DEE2251A767FEF00F07C4B /* ViewController.m */,
+				26DEE2271A767FEF00F07C4B /* Main.storyboard */,
+				26DEE22A1A767FEF00F07C4B /* Images.xcassets */,
+				26DEE22C1A767FEF00F07C4B /* LaunchScreen.xib */,
+				26DEE21D1A767FEF00F07C4B /* Supporting Files */,
+			);
+			path = "lzhamtestapp-ios";
+			sourceTree = "<group>";
+		};
+		26DEE21D1A767FEF00F07C4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26DEE21E1A767FEF00F07C4B /* Info.plist */,
+				26DEE21F1A767FEF00F07C4B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26DEE25E1A7683FD00F07C4B /* lzhamtest-osx */ = {
+			isa = PBXGroup;
+			children = (
+				26DEE25F1A7683FD00F07C4B /* main.c */,
+			);
+			path = "lzhamtest-osx";
+			sourceTree = "<group>";
+		};
+		26DEE2641A7684DF00F07C4B /* lzham_codec */ = {
+			isa = PBXGroup;
+			children = (
+				26DEE2651A76851300F07C4B /* include */,
+				26DEE26B1A76851300F07C4B /* LICENSE */,
+				26DEE26C1A76851300F07C4B /* lzhamcomp */,
+				26DEE27E1A76851300F07C4B /* lzhamdecomp */,
+				26DEE29E1A76851300F07C4B /* lzhamdll */,
+				26DEE2A41A76851400F07C4B /* lzhamlib */,
+				26DEE2A71A76851400F07C4B /* lzhamtest */,
+				26DEE2AD1A76851400F07C4B /* README.md */,
+			);
+			name = lzham_codec;
+			sourceTree = "<group>";
+		};
+		26DEE2651A76851300F07C4B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				26DEE2661A76851300F07C4B /* lzham.h */,
+				26DEE2671A76851300F07C4B /* lzham_dynamic_lib.h */,
+				26DEE2681A76851300F07C4B /* lzham_exports.inc */,
+				26DEE2691A76851300F07C4B /* lzham_static_lib.h */,
+				26DEE26A1A76851300F07C4B /* zlib.h */,
+			);
+			name = include;
+			path = lzham_codec/include;
+			sourceTree = "<group>";
+		};
+		26DEE26C1A76851300F07C4B /* lzhamcomp */ = {
+			isa = PBXGroup;
+			children = (
+				26DEE26D1A76851300F07C4B /* CMakeLists.txt */,
+				26DEE26E1A76851300F07C4B /* lzham_comp.h */,
+				26DEE26F1A76851300F07C4B /* lzham_lzbase.cpp */,
+				26DEE2701A76851300F07C4B /* lzham_lzbase.h */,
+				26DEE2711A76851300F07C4B /* lzham_lzcomp.cpp */,
+				26DEE2721A76851300F07C4B /* lzham_lzcomp_internal.cpp */,
+				26DEE2731A76851300F07C4B /* lzham_lzcomp_internal.h */,
+				26DEE2741A76851300F07C4B /* lzham_lzcomp_state.cpp */,
+				26DEE2751A76851300F07C4B /* lzham_match_accel.cpp */,
+				26DEE2761A76851300F07C4B /* lzham_match_accel.h */,
+				26DEE2771A76851300F07C4B /* lzham_null_threading.h */,
+				26DEE2781A76851300F07C4B /* lzham_pthreads_threading.cpp */,
+				26DEE2791A76851300F07C4B /* lzham_pthreads_threading.h */,
+				26DEE27A1A76851300F07C4B /* lzham_threading.h */,
+				26DEE27B1A76851300F07C4B /* lzham_win32_threading.cpp */,
+				26DEE27C1A76851300F07C4B /* lzham_win32_threading.h */,
+				26DEE27D1A76851300F07C4B /* lzhamcomp.vcxproj */,
+			);
+			name = lzhamcomp;
+			path = lzham_codec/lzhamcomp;
+			sourceTree = "<group>";
+		};
+		26DEE27E1A76851300F07C4B /* lzhamdecomp */ = {
+			isa = PBXGroup;
+			children = (
+				26DEE27F1A76851300F07C4B /* CMakeLists.txt */,
+				26DEE2801A76851300F07C4B /* lzham_assert.cpp */,
+				26DEE2811A76851300F07C4B /* lzham_assert.h */,
+				26DEE2821A76851300F07C4B /* lzham_checksum.cpp */,
+				26DEE2831A76851300F07C4B /* lzham_checksum.h */,
+				26DEE2841A76851300F07C4B /* lzham_config.h */,
+				26DEE2851A76851300F07C4B /* lzham_core.h */,
+				26DEE2861A76851300F07C4B /* lzham_decomp.h */,
+				26DEE2871A76851300F07C4B /* lzham_helpers.h */,
+				26DEE2881A76851300F07C4B /* lzham_huffman_codes.cpp */,
+				26DEE2891A76851300F07C4B /* lzham_huffman_codes.h */,
+				26DEE28A1A76851300F07C4B /* lzham_lzdecomp.cpp */,
+				26DEE28B1A76851300F07C4B /* lzham_lzdecompbase.cpp */,
+				26DEE28C1A76851300F07C4B /* lzham_lzdecompbase.h */,
+				26DEE28D1A76851300F07C4B /* lzham_math.h */,
+				26DEE28E1A76851300F07C4B /* lzham_mem.cpp */,
+				26DEE28F1A76851300F07C4B /* lzham_mem.h */,
+				26DEE2901A76851300F07C4B /* lzham_platform.cpp */,
+				26DEE2911A76851300F07C4B /* lzham_platform.h */,
+				26DEE2921A76851300F07C4B /* lzham_prefix_coding.cpp */,
+				26DEE2931A76851300F07C4B /* lzham_prefix_coding.h */,
+				26DEE2941A76851300F07C4B /* lzham_symbol_codec.cpp */,
+				26DEE2951A76851300F07C4B /* lzham_symbol_codec.h */,
+				26DEE2961A76851300F07C4B /* lzham_timer.cpp */,
+				26DEE2971A76851300F07C4B /* lzham_timer.h */,
+				26DEE2981A76851300F07C4B /* lzham_traits.h */,
+				26DEE2991A76851300F07C4B /* lzham_types.h */,
+				26DEE29A1A76851300F07C4B /* lzham_utils.h */,
+				26DEE29B1A76851300F07C4B /* lzham_vector.cpp */,
+				26DEE29C1A76851300F07C4B /* lzham_vector.h */,
+				26DEE29D1A76851300F07C4B /* lzhamdecomp.vcxproj */,
+			);
+			name = lzhamdecomp;
+			path = lzham_codec/lzhamdecomp;
+			sourceTree = "<group>";
+		};
+		26DEE29E1A76851300F07C4B /* lzhamdll */ = {
+			isa = PBXGroup;
+			children = (
+				26DEE29F1A76851300F07C4B /* CMakeLists.txt */,
+				26DEE2A01A76851300F07C4B /* lzham.vcxproj */,
+				26DEE2A11A76851300F07C4B /* lzham_api.cpp */,
+				26DEE2A21A76851300F07C4B /* lzham_dll_main.cpp */,
+				26DEE2A31A76851300F07C4B /* lzhamdll.def */,
+			);
+			name = lzhamdll;
+			path = lzham_codec/lzhamdll;
+			sourceTree = "<group>";
+		};
+		26DEE2A41A76851400F07C4B /* lzhamlib */ = {
+			isa = PBXGroup;
+			children = (
+				26DEE2A51A76851400F07C4B /* lzham_lib.cpp */,
+				26DEE2A61A76851400F07C4B /* lzhamlib.vcxproj */,
+			);
+			name = lzhamlib;
+			path = lzham_codec/lzhamlib;
+			sourceTree = "<group>";
+		};
+		26DEE2A71A76851400F07C4B /* lzhamtest */ = {
+			isa = PBXGroup;
+			children = (
+				26DEE2A81A76851400F07C4B /* CMakeLists.txt */,
+				26DEE2A91A76851400F07C4B /* lzhamtest.cpp */,
+				26DEE2AA1A76851400F07C4B /* lzhamtest.vcxproj */,
+				26DEE2AB1A76851400F07C4B /* timer.cpp */,
+				26DEE2AC1A76851400F07C4B /* timer.h */,
+			);
+			name = lzhamtest;
+			path = lzham_codec/lzhamtest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		26DEE2431A76804700F07C4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DEE24B1A76805200F07C4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DEE2531A76806000F07C4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXLegacyTarget section */
+		26DEE2D61A768ACB00F07C4B /* pre_build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 26DEE2D71A768ACB00F07C4B /* Build configuration list for PBXLegacyTarget "pre_build" */;
+			buildPhases = (
+			);
+			buildToolPath = scripts/pre_build.sh;
+			buildWorkingDirectory = "$(PROJECT_DIR)";
+			dependencies = (
+			);
+			name = pre_build;
+			passBuildSettingsInEnvironment = 1;
+			productName = pre_build;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		26DEE1AD1A767F8E00F07C4B /* lzhamcomp-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DEE1C01A767F8E00F07C4B /* Build configuration list for PBXNativeTarget "lzhamcomp-ios" */;
+			buildPhases = (
+				26DEE1AA1A767F8E00F07C4B /* Sources */,
+				26DEE1AB1A767F8E00F07C4B /* Frameworks */,
+				26DEE1AC1A767F8E00F07C4B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26DEE2DB1A768B1200F07C4B /* PBXTargetDependency */,
+			);
+			name = "lzhamcomp-ios";
+			productName = "lzhamcomp-ios";
+			productReference = 26DEE1AE1A767F8E00F07C4B /* liblzhamcomp-ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		26DEE1E41A767FAF00F07C4B /* lzhamdecomp-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DEE1F61A767FB000F07C4B /* Build configuration list for PBXNativeTarget "lzhamdecomp-ios" */;
+			buildPhases = (
+				26DEE1E11A767FAF00F07C4B /* Sources */,
+				26DEE1E21A767FAF00F07C4B /* Frameworks */,
+				26DEE1E31A767FAF00F07C4B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26DEE2DD1A768B1A00F07C4B /* PBXTargetDependency */,
+			);
+			name = "lzhamdecomp-ios";
+			productName = "lzhamdecomp-ios";
+			productReference = 26DEE1E51A767FAF00F07C4B /* liblzhamdecomp-ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		26DEE1FF1A767FD000F07C4B /* lzhamdll-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DEE2111A767FD000F07C4B /* Build configuration list for PBXNativeTarget "lzhamdll-ios" */;
+			buildPhases = (
+				26DEE1FC1A767FD000F07C4B /* Sources */,
+				26DEE1FD1A767FD000F07C4B /* Frameworks */,
+				26DEE1FE1A767FD000F07C4B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26DEE2DF1A768B1F00F07C4B /* PBXTargetDependency */,
+			);
+			name = "lzhamdll-ios";
+			productName = "lzhamdll-ios";
+			productReference = 26DEE2001A767FD000F07C4B /* liblzhamdll-ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		26DEE21A1A767FEF00F07C4B /* lzhamtestapp-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DEE23B1A767FEF00F07C4B /* Build configuration list for PBXNativeTarget "lzhamtestapp-ios" */;
+			buildPhases = (
+				26DEE2171A767FEF00F07C4B /* Sources */,
+				26DEE2181A767FEF00F07C4B /* Frameworks */,
+				26DEE2191A767FEF00F07C4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26DEE2F41A768E9C00F07C4B /* PBXTargetDependency */,
+				26DEE2F61A768E9C00F07C4B /* PBXTargetDependency */,
+				26DEE2F81A768E9C00F07C4B /* PBXTargetDependency */,
+				26DEE2E11A768B2300F07C4B /* PBXTargetDependency */,
+			);
+			name = "lzhamtestapp-ios";
+			productName = "lzhamtestapp-ios";
+			productReference = 26DEE21B1A767FEF00F07C4B /* lzhamtestapp-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26DEE2441A76804700F07C4B /* lzhamdecomp-osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DEE2461A76804700F07C4B /* Build configuration list for PBXNativeTarget "lzhamdecomp-osx" */;
+			buildPhases = (
+				26DEE2411A76804700F07C4B /* Sources */,
+				26DEE2421A76804700F07C4B /* Frameworks */,
+				26DEE2431A76804700F07C4B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26DEE2E51A768B2C00F07C4B /* PBXTargetDependency */,
+			);
+			name = "lzhamdecomp-osx";
+			productName = "lzhamdecomp-osx";
+			productReference = 26DEE2451A76804700F07C4B /* liblzhamdecomp-osx.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		26DEE24C1A76805200F07C4B /* lzhamcomp-osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DEE24E1A76805200F07C4B /* Build configuration list for PBXNativeTarget "lzhamcomp-osx" */;
+			buildPhases = (
+				26DEE2491A76805200F07C4B /* Sources */,
+				26DEE24A1A76805200F07C4B /* Frameworks */,
+				26DEE24B1A76805200F07C4B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26DEE2E31A768B2800F07C4B /* PBXTargetDependency */,
+			);
+			name = "lzhamcomp-osx";
+			productName = "lzhamcomp-osx";
+			productReference = 26DEE24D1A76805200F07C4B /* liblzhamcomp-osx.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		26DEE2541A76806000F07C4B /* lzhamdll-osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DEE2561A76806000F07C4B /* Build configuration list for PBXNativeTarget "lzhamdll-osx" */;
+			buildPhases = (
+				26DEE2511A76806000F07C4B /* Sources */,
+				26DEE2521A76806000F07C4B /* Frameworks */,
+				26DEE2531A76806000F07C4B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26DEE2E71A768B3100F07C4B /* PBXTargetDependency */,
+			);
+			name = "lzhamdll-osx";
+			productName = "lzhamdll-osx";
+			productReference = 26DEE2551A76806000F07C4B /* liblzhamdll-osx.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		26DEE25C1A7683FD00F07C4B /* lzhamtest-osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DEE2611A7683FD00F07C4B /* Build configuration list for PBXNativeTarget "lzhamtest-osx" */;
+			buildPhases = (
+				26DEE2591A7683FD00F07C4B /* Sources */,
+				26DEE25A1A7683FD00F07C4B /* Frameworks */,
+				26DEE25B1A7683FD00F07C4B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26DEE2F11A768E6200F07C4B /* PBXTargetDependency */,
+				26DEE2EB1A768E4C00F07C4B /* PBXTargetDependency */,
+				26DEE2ED1A768E4C00F07C4B /* PBXTargetDependency */,
+				26DEE2E91A768B3600F07C4B /* PBXTargetDependency */,
+			);
+			name = "lzhamtest-osx";
+			productName = "lzhamtest-osx";
+			productReference = 26DEE25D1A7683FD00F07C4B /* lzhamtest-osx */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26DEE1A41A767F3A00F07C4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					26DEE1AD1A767F8E00F07C4B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					26DEE1E41A767FAF00F07C4B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					26DEE1FF1A767FD000F07C4B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					26DEE21A1A767FEF00F07C4B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					26DEE2441A76804700F07C4B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					26DEE24C1A76805200F07C4B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					26DEE2541A76806000F07C4B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					26DEE25C1A7683FD00F07C4B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					26DEE2D61A768ACB00F07C4B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 26DEE1A71A767F3A00F07C4B /* Build configuration list for PBXProject "lzham" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26DEE1A31A767F3A00F07C4B;
+			productRefGroup = 26DEE1AF1A767F8E00F07C4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26DEE1AD1A767F8E00F07C4B /* lzhamcomp-ios */,
+				26DEE1E41A767FAF00F07C4B /* lzhamdecomp-ios */,
+				26DEE1FF1A767FD000F07C4B /* lzhamdll-ios */,
+				26DEE21A1A767FEF00F07C4B /* lzhamtestapp-ios */,
+				26DEE24C1A76805200F07C4B /* lzhamcomp-osx */,
+				26DEE2441A76804700F07C4B /* lzhamdecomp-osx */,
+				26DEE2541A76806000F07C4B /* lzhamdll-osx */,
+				26DEE25C1A7683FD00F07C4B /* lzhamtest-osx */,
+				26DEE2D61A768ACB00F07C4B /* pre_build */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26DEE2191A767FEF00F07C4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DEE2291A767FEF00F07C4B /* Main.storyboard in Resources */,
+				26DEE22E1A767FEF00F07C4B /* LaunchScreen.xib in Resources */,
+				26DEE22B1A767FEF00F07C4B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26DEE1AA1A767F8E00F07C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DEE1B41A767F8E00F07C4B /* lzhamcomp_ios.m in Sources */,
+				26DEE2B11A76854E00F07C4B /* lzham_lzcomp_state.cpp in Sources */,
+				26DEE2AF1A76854E00F07C4B /* lzham_lzcomp.cpp in Sources */,
+				26DEE2B21A76854E00F07C4B /* lzham_match_accel.cpp in Sources */,
+				26DEE2B31A76854E00F07C4B /* lzham_pthreads_threading.cpp in Sources */,
+				26DEE2B01A76854E00F07C4B /* lzham_lzcomp_internal.cpp in Sources */,
+				26DEE2AE1A76854E00F07C4B /* lzham_lzbase.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DEE1E11A767FAF00F07C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DEE2C11A76857600F07C4B /* lzham_prefix_coding.cpp in Sources */,
+				26DEE2BB1A76857600F07C4B /* lzham_checksum.cpp in Sources */,
+				26DEE2BC1A76857600F07C4B /* lzham_huffman_codes.cpp in Sources */,
+				26DEE2C21A76857600F07C4B /* lzham_symbol_codec.cpp in Sources */,
+				26DEE2BF1A76857600F07C4B /* lzham_mem.cpp in Sources */,
+				26DEE2C01A76857600F07C4B /* lzham_platform.cpp in Sources */,
+				26DEE2BA1A76857600F07C4B /* lzham_assert.cpp in Sources */,
+				26DEE2C41A76857600F07C4B /* lzham_vector.cpp in Sources */,
+				26DEE2BD1A76857600F07C4B /* lzham_lzdecomp.cpp in Sources */,
+				26DEE1EA1A767FAF00F07C4B /* lzhamdecomp_ios.m in Sources */,
+				26DEE2C31A76857600F07C4B /* lzham_timer.cpp in Sources */,
+				26DEE2BE1A76857600F07C4B /* lzham_lzdecompbase.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DEE1FC1A767FD000F07C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DEE2051A767FD000F07C4B /* lzhamdll_ios.m in Sources */,
+				26DEE2D01A76858E00F07C4B /* lzham_api.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DEE2171A767FEF00F07C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DEE2261A767FEF00F07C4B /* ViewController.m in Sources */,
+				26DEE2D51A7685B400F07C4B /* timer.cpp in Sources */,
+				26DEE2231A767FEF00F07C4B /* AppDelegate.m in Sources */,
+				26DEE2D41A7685B400F07C4B /* lzhamtest.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DEE2411A76804700F07C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DEE2C81A76857800F07C4B /* lzham_lzdecomp.cpp in Sources */,
+				26DEE2C71A76857800F07C4B /* lzham_huffman_codes.cpp in Sources */,
+				26DEE2CE1A76857800F07C4B /* lzham_timer.cpp in Sources */,
+				26DEE2CA1A76857800F07C4B /* lzham_mem.cpp in Sources */,
+				26DEE2CB1A76857800F07C4B /* lzham_platform.cpp in Sources */,
+				26DEE2CC1A76857800F07C4B /* lzham_prefix_coding.cpp in Sources */,
+				26DEE2CF1A76857800F07C4B /* lzham_vector.cpp in Sources */,
+				26DEE2C51A76857800F07C4B /* lzham_assert.cpp in Sources */,
+				26DEE2C61A76857800F07C4B /* lzham_checksum.cpp in Sources */,
+				26DEE2CD1A76857800F07C4B /* lzham_symbol_codec.cpp in Sources */,
+				26DEE2C91A76857800F07C4B /* lzham_lzdecompbase.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DEE2491A76805200F07C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DEE2B61A76855000F07C4B /* lzham_lzcomp_internal.cpp in Sources */,
+				26DEE2B41A76855000F07C4B /* lzham_lzbase.cpp in Sources */,
+				26DEE2B91A76855000F07C4B /* lzham_pthreads_threading.cpp in Sources */,
+				26DEE2B51A76855000F07C4B /* lzham_lzcomp.cpp in Sources */,
+				26DEE2B71A76855000F07C4B /* lzham_lzcomp_state.cpp in Sources */,
+				26DEE2B81A76855000F07C4B /* lzham_match_accel.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DEE2511A76806000F07C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DEE2D11A76858F00F07C4B /* lzham_api.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26DEE2591A7683FD00F07C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DEE2D21A7685B200F07C4B /* lzhamtest.cpp in Sources */,
+				26DEE2D31A7685B200F07C4B /* timer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26DEE2DB1A768B1200F07C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26DEE2D61A768ACB00F07C4B /* pre_build */;
+			targetProxy = 26DEE2DA1A768B1200F07C4B /* PBXContainerItemProxy */;
+		};
+		26DEE2DD1A768B1A00F07C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26DEE2D61A768ACB00F07C4B /* pre_build */;
+			targetProxy = 26DEE2DC1A768B1A00F07C4B /* PBXContainerItemProxy */;
+		};
+		26DEE2DF1A768B1F00F07C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26DEE2D61A768ACB00F07C4B /* pre_build */;
+			targetProxy = 26DEE2DE1A768B1F00F07C4B /* PBXContainerItemProxy */;
+		};
+		26DEE2E11A768B2300F07C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26DEE2D61A768ACB00F07C4B /* pre_build */;
+			targetProxy = 26DEE2E01A768B2300F07C4B /* PBXContainerItemProxy */;
+		};
+		26DEE2E31A768B2800F07C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26DEE2D61A768ACB00F07C4B /* pre_build */;
+			targetProxy = 26DEE2E21A768B2800F07C4B /* PBXContainerItemProxy */;
+		};
+		26DEE2E51A768B2C00F07C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26DEE2D61A768ACB00F07C4B /* pre_build */;
+			targetProxy = 26DEE2E41A768B2C00F07C4B /* PBXContainerItemProxy */;
+		};
+		26DEE2E71A768B3100F07C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26DEE2D61A768ACB00F07C4B /* pre_build */;
+			targetProxy = 26DEE2E61A768B3100F07C4B /* PBXContainerItemProxy */;
+		};
+		26DEE2E91A768B3600F07C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26DEE2D61A768ACB00F07C4B /* pre_build */;
+			targetProxy = 26DEE2E81A768B3600F07C4B /* PBXContainerItemProxy */;
+		};
+		26DEE2EB1A768E4C00F07C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26DEE24C1A76805200F07C4B /* lzhamcomp-osx */;
+			targetProxy = 26DEE2EA1A768E4C00F07C4B /* PBXContainerItemProxy */;
+		};
+		26DEE2ED1A768E4C00F07C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26DEE2441A76804700F07C4B /* lzhamdecomp-osx */;
+			targetProxy = 26DEE2EC1A768E4C00F07C4B /* PBXContainerItemProxy */;
+		};
+		26DEE2F11A768E6200F07C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26DEE2541A76806000F07C4B /* lzhamdll-osx */;
+			targetProxy = 26DEE2F01A768E6200F07C4B /* PBXContainerItemProxy */;
+		};
+		26DEE2F41A768E9C00F07C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26DEE1AD1A767F8E00F07C4B /* lzhamcomp-ios */;
+			targetProxy = 26DEE2F31A768E9C00F07C4B /* PBXContainerItemProxy */;
+		};
+		26DEE2F61A768E9C00F07C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26DEE1E41A767FAF00F07C4B /* lzhamdecomp-ios */;
+			targetProxy = 26DEE2F51A768E9C00F07C4B /* PBXContainerItemProxy */;
+		};
+		26DEE2F81A768E9C00F07C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26DEE1FF1A767FD000F07C4B /* lzhamdll-ios */;
+			targetProxy = 26DEE2F71A768E9C00F07C4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26DEE2271A767FEF00F07C4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26DEE2281A767FEF00F07C4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26DEE22C1A767FEF00F07C4B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26DEE22D1A767FEF00F07C4B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26DEE1A81A767F3A00F07C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_STRICT_ALIASING = NO;
+				OTHER_CFLAGS = (
+					"-D_LARGEFILE64_SOURCE=1",
+					"-D_FILE_OFFSET_BITS=64",
+					"-fomit-frame-pointer",
+					"-fexpensive-optimizations",
+				);
+			};
+			name = Debug;
+		};
+		26DEE1A91A767F3A00F07C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_STRICT_ALIASING = NO;
+				OTHER_CFLAGS = (
+					"-D_LARGEFILE64_SOURCE=1",
+					"-D_FILE_OFFSET_BITS=64",
+					"-fomit-frame-pointer",
+					"-fexpensive-optimizations",
+					"-DNDEBUG",
+				);
+			};
+			name = Release;
+		};
+		26DEE1C11A767F8E00F07C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		26DEE1C21A767F8E00F07C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26DEE1F71A767FB000F07C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		26DEE1F81A767FB000F07C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26DEE2121A767FD000F07C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		26DEE2131A767FD000F07C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26DEE23C1A767FEF00F07C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "lzhamtestapp-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26DEE23D1A767FEF00F07C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "lzhamtestapp-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26DEE2471A76804700F07C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		26DEE2481A76804700F07C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		26DEE24F1A76805200F07C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		26DEE2501A76805200F07C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		26DEE2571A76806000F07C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		26DEE2581A76806000F07C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		26DEE2621A7683FD00F07C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		26DEE2631A7683FD00F07C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		26DEE2D81A768ACB00F07C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		26DEE2D91A768ACB00F07C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26DEE1A71A767F3A00F07C4B /* Build configuration list for PBXProject "lzham" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DEE1A81A767F3A00F07C4B /* Debug */,
+				26DEE1A91A767F3A00F07C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DEE1C01A767F8E00F07C4B /* Build configuration list for PBXNativeTarget "lzhamcomp-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DEE1C11A767F8E00F07C4B /* Debug */,
+				26DEE1C21A767F8E00F07C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DEE1F61A767FB000F07C4B /* Build configuration list for PBXNativeTarget "lzhamdecomp-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DEE1F71A767FB000F07C4B /* Debug */,
+				26DEE1F81A767FB000F07C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DEE2111A767FD000F07C4B /* Build configuration list for PBXNativeTarget "lzhamdll-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DEE2121A767FD000F07C4B /* Debug */,
+				26DEE2131A767FD000F07C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DEE23B1A767FEF00F07C4B /* Build configuration list for PBXNativeTarget "lzhamtestapp-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DEE23C1A767FEF00F07C4B /* Debug */,
+				26DEE23D1A767FEF00F07C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DEE2461A76804700F07C4B /* Build configuration list for PBXNativeTarget "lzhamdecomp-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DEE2471A76804700F07C4B /* Debug */,
+				26DEE2481A76804700F07C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DEE24E1A76805200F07C4B /* Build configuration list for PBXNativeTarget "lzhamcomp-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DEE24F1A76805200F07C4B /* Debug */,
+				26DEE2501A76805200F07C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DEE2561A76806000F07C4B /* Build configuration list for PBXNativeTarget "lzhamdll-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DEE2571A76806000F07C4B /* Debug */,
+				26DEE2581A76806000F07C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DEE2611A7683FD00F07C4B /* Build configuration list for PBXNativeTarget "lzhamtest-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DEE2621A7683FD00F07C4B /* Debug */,
+				26DEE2631A7683FD00F07C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26DEE2D71A768ACB00F07C4B /* Build configuration list for PBXLegacyTarget "pre_build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DEE2D81A768ACB00F07C4B /* Debug */,
+				26DEE2D91A768ACB00F07C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26DEE1A41A767F3A00F07C4B /* Project object */;
+}

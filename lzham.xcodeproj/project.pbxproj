@@ -233,7 +233,6 @@
 		26DEE24D1A76805200F07C4B /* liblzhamcomp-osx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblzhamcomp-osx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26DEE2551A76806000F07C4B /* liblzhamdll-osx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblzhamdll-osx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26DEE25D1A7683FD00F07C4B /* lzhamtest-osx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "lzhamtest-osx"; sourceTree = BUILT_PRODUCTS_DIR; };
-		26DEE25F1A7683FD00F07C4B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		26DEE2661A76851300F07C4B /* lzham.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham.h; sourceTree = "<group>"; };
 		26DEE2671A76851300F07C4B /* lzham_dynamic_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lzham_dynamic_lib.h; sourceTree = "<group>"; };
 		26DEE2681A76851300F07C4B /* lzham_exports.inc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.pascal; path = lzham_exports.inc; sourceTree = "<group>"; };
@@ -377,7 +376,6 @@
 				26DEE1E61A767FAF00F07C4B /* lzhamdecomp-ios */,
 				26DEE2011A767FD000F07C4B /* lzhamdll-ios */,
 				26DEE21C1A767FEF00F07C4B /* lzhamtestapp-ios */,
-				26DEE25E1A7683FD00F07C4B /* lzhamtest-osx */,
 				26DEE1AF1A767F8E00F07C4B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -446,14 +444,6 @@
 				26DEE21F1A767FEF00F07C4B /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		26DEE25E1A7683FD00F07C4B /* lzhamtest-osx */ = {
-			isa = PBXGroup;
-			children = (
-				26DEE25F1A7683FD00F07C4B /* main.c */,
-			);
-			path = "lzhamtest-osx";
 			sourceTree = "<group>";
 		};
 		26DEE2641A7684DF00F07C4B /* lzham_codec */ = {
@@ -1888,6 +1878,7 @@
 				26DEE2D91A768ACB00F07C4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

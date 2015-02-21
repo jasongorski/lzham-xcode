@@ -3,7 +3,7 @@
 # lzham-xcode
 # FIXME need to work around pervasive __is_pod build issue
 
-ORIGLINE="#if defined(__APPLE__) || defined(__FreeBSD__) || defined(__NetBSD__)"
+ORIGLINE="#if defined(__APPLE__) || defined(__NetBSD__)"
 TARGETPATH="lzham_codec/lzhamdecomp/lzham_traits.h"
 
 grep "^$ORIGLINE" "$TARGETPATH"
